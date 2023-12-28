@@ -1,0 +1,9 @@
+server:
+  port: 8761 # 服务端口
+spring:
+  application:
+    name: eurekaserver # eureka的服务名称
+eureka:
+  client:
+    service-url:  # eureka的地址信息
+      defaultZone: http://127.0.0.1:8761/eureka
