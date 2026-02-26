@@ -1,0 +1,45 @@
+# Maven target目录
+target/
+*/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# 编译生成的class文件
+*.class
+
+# 日志文件
+*.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 环境配置文件（敏感信息）
+*.env
+.env.local
+.env.*.local
+
+# 数据库相关
+*.sql
+
+# 打包文件
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# 临时文件
+*.tmp
+*.temp
